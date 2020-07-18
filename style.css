@@ -1,0 +1,37 @@
+h1 {
+	color: #E76F51;
+}
+
+#container {
+	height: 100%;
+}
+
+#container .note {
+	height: 150px;
+	width: 18%;
+	margin: 1%;
+	display: inline-block;
+	position: relative;
+}
+
+.note textarea {
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	resize: none;
+	padding: 5px;
+	border: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+.note i{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	font-size: 10px;
+}
